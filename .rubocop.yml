@@ -1,0 +1,16 @@
+inherit_from: "https://raw.githubusercontent.com/brandonweiss/rubocop-config/6265b818701ec1d8d91dfc39514c0bd074f3af82/default.yml"
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - "bin/*"
+    - "exe/*"
+    - "vendor/**/*"
+
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - "test/**/*"
+
+Style/FileName:
+  Exclude:
+    - "lib/git-hookshot.rb"
