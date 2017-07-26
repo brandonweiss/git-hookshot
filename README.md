@@ -1,5 +1,7 @@
 # git-hookshot
 
+[![Gem Version](https://badge.fury.io/rb/git-hookshot.svg)](https://badge.fury.io/rb/git-hookshot) [![Build Status](https://travis-ci.org/brandonweiss/git-hookshot.svg?branch=master)](https://travis-ci.org/brandonweiss/git-hookshot)
+
 <img src="https://cloud.githubusercontent.com/assets/4727/20847858/9d3c4ef8-b884-11e6-8bcc-8c2c493c60b3.png" width="60%">
 
 git-hookshot allows you to share git hooks in Ruby projects among all the collaborators _automatically_, without them having to do anything. It automatically symLINKs them to the internal git hooks directory when installing gems with Bundler.
