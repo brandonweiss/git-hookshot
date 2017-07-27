@@ -22,6 +22,12 @@ Add this line to your application’s Gemfile:
 gem "git-hookshot"
 ```
 
+*NB*: Right now there is a bug with installing from RubyGems.org—instead use the GitHub repository instead:
+
+```ruby
+gem "git-hookshot", github: "brandonweiss/git-hookshot"
+```
+
 And then execute:
 
 ```shell
