@@ -16,16 +16,16 @@ This entire gem runs on 🔮 dark magic 🔮. What it does isn’t intended to b
 
 ## Installation
 
-Add this line to your application’s Gemfile:
+Add this line to your application’s Gemfile in the `development` group:
 
 ```ruby
-gem "git-hookshot"
+gem "git-hookshot", group: [:development]
 ```
 
 *NB*: Right now there is a bug with installing from RubyGems.org—use the GitHub repository instead:
 
 ```ruby
-gem "git-hookshot", github: "brandonweiss/git-hookshot"
+gem "git-hookshot", github: "brandonweiss/git-hookshot", group: [:development]
 ```
 
 And then execute:
