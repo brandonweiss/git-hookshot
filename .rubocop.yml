@@ -1,4 +1,4 @@
-inherit_from: "https://raw.githubusercontent.com/brandonweiss/rubocop-config/6265b818701ec1d8d91dfc39514c0bd074f3af82/default.yml"
+inherit_from: "https://raw.githubusercontent.com/brandonweiss/rubocop-config/e4d46868424c13e59ea3c8be98074d29dd598d15/default.yml"
 
 AllCops:
   TargetRubyVersion: 2.3
